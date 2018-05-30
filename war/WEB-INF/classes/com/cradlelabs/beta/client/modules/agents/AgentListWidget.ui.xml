@@ -1,0 +1,31 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.ul-style{padding-left: 30px;}
+	</ui:style>
+	<g:HTMLPanel>
+	    <ul class="{style.ul-style}">
+	        <h4 class="m-t-lg text-dark">Agents</h4>
+	    </ul>
+		<ul class="list-group gutter list-group-lg list-group-sp sortable">
+			<li class="list-group-item bg-dark list-height" draggable="true">
+				<span class="pull-right">
+					<div>
+						<i class="fa fa-circle-o fa-fw m-r-xs"></i>
+					</div>
+				</span>
+				
+				<div class="hidden-xs hidden-sm col-md-2 col-lg-2 clear text-white">  </div>
+				<div class="col-xs-8 col-sm-8 col-md-2 col-lg-2 clear text-white"> Name </div>
+				<div class="hidden-xs hidden-sm col-md-3 col-lg-3 clear text-white"> Polling Station </div>
+				<div class="hidden-xs hidden-sm col-md-2 col-lg-2 clear text-white"> Mobile </div>
+			</li>
+
+		</ul>
+
+		<ul class="list-group gutter list-group-lg list-group-sp sortable" ui:field="ulListContainer">
+
+		</ul>
+	</g:HTMLPanel>
+</ui:UiBinder> 

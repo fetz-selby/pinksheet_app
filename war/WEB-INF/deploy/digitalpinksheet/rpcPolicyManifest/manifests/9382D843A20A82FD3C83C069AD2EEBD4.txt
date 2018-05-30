@@ -1,0 +1,2 @@
+serviceClass: com.cradlelabs.beta.client.AddService
+path: 2075B7A2F1372F487AACE9FCB0407592.gwt.rpc

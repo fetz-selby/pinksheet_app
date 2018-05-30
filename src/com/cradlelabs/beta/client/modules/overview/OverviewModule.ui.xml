@@ -1,0 +1,79 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.dash-style{height:148px !important; padding: 15px !important;}
+	</ui:style>
+	<g:HTMLPanel styleName="hbox stretch">
+			<section class="vbox">
+				<section class="scrollable padder">
+					<section class="row m-b-md">
+						<div class="col-sm-6">
+							<h3 class="m-b-xs text-black">Dashboard</h3>
+						</div>
+					</section>
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="panel b-a">
+								<div class="row m-n">
+									<div class="col-md-6 b-b b-r {style.dash-style}">
+										<a href="javascript:void(0)" class="block padder-v hover">
+											<span class="i-s i-s-3x pull-left m-r-sm">
+												<i class="i i-hexagon2 i-s-base text-danger hover-rotate"></i>
+												<i class="fa fa-eye fa-1x text-white"></i>
+											</span>
+											<span class="clear">
+												<span class="h3 block m-t-xs text-danger" ui:field="agentsSpan">0</span>
+												<small class="h5 text-muted text-u-c">Agents</small>
+											</span>
+										</a>
+									</div>
+									<div class="col-md-6 b-b {style.dash-style}">
+										<a href="javascript:void(0)" class="block padder-v hover">
+											<span class="i-s i-s-3x pull-left m-r-sm">
+												<i class="i i-hexagon2 i-s-base text-success-lt hover-rotate"></i>
+												<i class="i i-users2 i-sm text-white"></i>
+											</span>
+											<span class="clear">
+												<span class="h3 block m-t-xs text-success" ui:field="usersSpan">0</span>
+												<small class="h5 text-muted text-u-c">Users</small>
+											</span>
+										</a>
+									</div>
+									<div class="col-md-6 b-b b-r {style.dash-style}">
+										<a href="javascript:void(0)" class="block padder-v hover">
+											<span class="i-s i-s-3x pull-left m-r-sm">
+												<i class="i i-hexagon2 i-s-base text-info hover-rotate"></i>
+												<i class="fa fa-file-o i-sm text-white"></i>
+											</span>
+											<span class="clear">
+												<span class="h3 block m-t-xs text-info" ui:field="pinkSheetSpan">0</span>
+												<small class="h5 text-muted text-u-c">Pink Sheets</small>
+											</span>
+										</a>
+									</div>
+
+									<div class="col-md-6 b-b {style.dash-style}">
+										<a href="javascript:void(0)" class="block padder-v hover">
+											<span class="i-s i-s-3x pull-left m-r-sm">
+												<i class="i i-hexagon2 i-s-base text-primary hover-rotate"></i>
+												<i class="fa fa-thumbs-up i-sm text-white"></i>
+											</span>
+											<span class="clear">
+												<span class="h3 block m-t-xs text-primary" ui:field="requestSpan">0</span>
+												<small class="h5 text-muted text-u-c">Pending Approval(s)</small>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+
+
+				</section>
+			</section>
+	</g:HTMLPanel>
+</ui:UiBinder> 

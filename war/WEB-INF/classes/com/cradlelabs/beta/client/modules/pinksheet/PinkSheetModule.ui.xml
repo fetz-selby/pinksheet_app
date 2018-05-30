@@ -1,0 +1,34 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel styleName="hbox stretch">
+		<aside class="aside-md bg-light dker b-r" ui:field="controls"></aside>
+
+		<aside>
+			<section class="vbox">
+
+				<!-- <header class="header bg-white b-b clearfix">
+					<div class="row m-t-sm">
+
+						<div class="col-sm-4 m-b-xs">
+							<div class="input-group">
+								<input type="text" class="input-sm form-control"
+									placeholder="Search">
+									<span class="input-group-btn">
+										<button class="btn btn-sm btn-default" type="button">Go!</button>
+									</span>
+							</div>
+						</div>
+					</div>
+				</header> -->
+
+				<g:HTMLPanel styleName="scrollable wrapper w-f" ui:field="contentsPanel">
+				</g:HTMLPanel>
+			</section>
+		</aside>
+
+	</g:HTMLPanel>
+</ui:UiBinder> 

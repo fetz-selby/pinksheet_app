@@ -1,0 +1,24 @@
+.glassPanel{background: #000000; opacity: 0.5;}
+.hide{display: none;}
+.list-height{height: 50px; margin-bottom: 0px !important;}
+.list-height-md{height: 80px; margin-bottom: 0px !important;}
+
+.agents-list-style{padding-top: 11px; padding-bottom: 11px;}
+
+.textarea-style{line-height: 2; width: 100%; min-height: 100px; max-height: 150px;}
+.textarea-style2{line-height: 2; width: 100%; min-height: 130px; max-height: 130px;}
+
+.offering-style {bottom: 100px; right: 0px; position: fixed; border: none; z-index: 1; cursor: pointer !important; padding: 7px 9px; background-color: #FFFFFF;}
+.tithe-style {bottom: 140px; right: 0px; position: fixed; border: none; z-index: 1; cursor: pointer !important; padding: 7px 19px; background-color: #DAA520;}
+
+.tithe-anchor-style{ color: #ffffff; letter-spacing: .5px;}
+.offering-anchor-style{ color: #A2A2A2; letter-spacing: .5px;}
+
+.accent-style {bottom: 20px; right: 20px; position: fixed; border: none; z-index: 1; cursor: pointer !important;}
+.accent-inner-style{background: #FF0A0A; padding: 17px; width: 52px; height: 52px; max-width: 100%; vertical-align: middle; border-radius: 500px; border: 0;}
+.accent-anchor-style{width: 100%;}
+.popup-style{top: 64px !important;}
+.red-border-style{border: 1px solid red !important;}
+
+.agent-list-avatar-style{width: 50px; height: 50px;}
+.list-pointer-style{cursor: pointer;}

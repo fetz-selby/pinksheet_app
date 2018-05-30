@@ -1,0 +1,49 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+	
+	</ui:style>
+	<div>
+		<div class="navbar-header aside-md dk">
+			<a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
+				<i class="fa fa-bars"></i>
+			</a>
+			<a href="javascript:void(0)" class="navbar-brand">
+				<img src="images/logo.png" class="m-r-sm" alt="scale" />
+				<span class="hidden-nav-xs">Pink Sheets</span>
+			</a>
+			<a class="btn btn-link visible-xs" data-toggle="dropdown"
+				data-target=".user">
+				<i class="fa fa-cog"></i>
+			</a>
+		</div>
+
+
+		<ul class="nav navbar-nav navbar-right m-n hidden-xs nav-user user">
+
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<span class="thumb-sm avatar pull-left">
+						<img ui:field="userAvatar" src="images/no-image.jpg" alt="..." />
+					</span>
+					<span ui:field="userName"></span>
+					<b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu animated fadeInRight">
+					<li>
+						<span class="arrow top"></span>
+						<a href="#">Change Password</a>
+					</li>
+					<li>
+						<a href="javascript:void(0)">Profile</a>
+					</li>
+					
+					<li class="divider"></li>
+					<li>
+						<a href="#logout">Logout</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</ui:UiBinder>

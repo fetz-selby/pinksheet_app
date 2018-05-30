@@ -1,0 +1,29 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+	
+	</ui:style>
+	<div>
+	<div class="text-muted text-sm hidden-nav-xs padder m-t-sm m-b-sm">Start</div>
+	<ul class="nav nav-main" data-ride="collapse">
+		<li>
+			<a href="#home" class="auto">
+				<i class="i i-statistics icon">
+				</i>
+				<span class="font-bold">Overview</span>
+			</a>
+		</li>
+
+		<li>
+			<a href="#upload" class="auto">
+				<i class="fa fa-upload icon">
+				</i>
+				<span class="font-bold">Upload</span>
+			</a>
+		</li>
+
+	</ul>
+	<div class="line dk hidden-nav-xs"></div>
+	</div>
+
+</ui:UiBinder>

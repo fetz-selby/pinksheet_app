@@ -1,0 +1,42 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder">
+	<ui:style>
+	
+	</ui:style>
+	<div>
+	<div class="text-muted text-sm hidden-nav-xs padder m-t-sm m-b-sm">Start</div>
+	<ul class="nav nav-main" data-ride="collapse">
+		<li>
+			<a href="#home" class="auto">
+				<i class="i i-statistics icon">
+				</i>
+				<span class="font-bold">Overview</span>
+			</a>
+		</li>
+
+		<li ui:field="agents">
+			
+		</li>
+		<li ui:field="users"></li>
+		<li ui:field="approve"></li>
+
+		<li class="hide">
+			<a href="#sms" class="auto">
+				<i class="i i-mail icon">
+				</i>
+				<span class="font-bold">SMS</span>
+			</a>
+		</li>
+
+		<li>
+			<a href="#pinksheet" class="auto">
+				<i class="fa fa-file-o icon">
+				</i>
+				<span class="font-bold">Pink Sheets</span>
+			</a>
+		</li>
+	</ul>
+	<div class="line dk hidden-nav-xs"></div>
+	</div>
+
+</ui:UiBinder>

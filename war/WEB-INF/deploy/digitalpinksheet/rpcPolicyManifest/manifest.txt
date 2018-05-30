@@ -1,0 +1,5 @@
+# Module digitalpinksheet
+# RPC service class, partial path of RPC policy file
+com.cradlelabs.beta.client.UpdateService, 552E3A95705807786FCED21DE12B87F7.gwt.rpc
+com.cradlelabs.beta.client.ListService, 6DBE1E9C4C550E7978682230A9C4A768.gwt.rpc
+com.cradlelabs.beta.client.AddService, 2075B7A2F1372F487AACE9FCB0407592.gwt.rpc

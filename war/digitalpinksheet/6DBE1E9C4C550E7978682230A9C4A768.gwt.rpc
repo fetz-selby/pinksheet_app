@@ -1,0 +1,18 @@
+@FinalFields, false
+com.cradlelabs.beta.client.ListService, false, false, false, false, _, 4021245708
+com.cradlelabs.beta.shared.AgentModel, true, true, false, false, com.cradlelabs.beta.shared.AgentModel/2025727537, 2025727537
+com.cradlelabs.beta.shared.BlobstoreModel, true, true, false, false, com.cradlelabs.beta.shared.BlobstoreModel/1009032556, 1009032556
+com.cradlelabs.beta.shared.ConstituencyModel, true, true, false, false, com.cradlelabs.beta.shared.ConstituencyModel/2788067985, 2788067985
+com.cradlelabs.beta.shared.PSUser, true, true, false, false, com.cradlelabs.beta.shared.PSUser/2025146326, 2025146326
+com.cradlelabs.beta.shared.PinkSheetModel, true, true, false, false, com.cradlelabs.beta.shared.PinkSheetModel/4055249402, 4055249402
+com.cradlelabs.beta.shared.PollingStationModel, true, true, false, false, com.cradlelabs.beta.shared.PollingStationModel/649996062, 649996062
+com.cradlelabs.beta.shared.RegionModel, true, true, false, false, com.cradlelabs.beta.shared.RegionModel/678659587, 678659587
+com.cradlelabs.beta.shared.UserModel, true, true, false, false, com.cradlelabs.beta.shared.UserModel/603574212, 603574212
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
+com.google.gwt.user.client.rpc.RpcTokenException, true, true, false, false, com.google.gwt.user.client.rpc.RpcTokenException/2345075298, 2345075298
+com.google.gwt.user.client.rpc.XsrfToken, false, false, true, true, com.google.gwt.user.client.rpc.XsrfToken/4254043109, 4254043109
+java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
+java.lang.RuntimeException, true, false, true, false, java.lang.RuntimeException/515124647, 515124647
+java.lang.String, true, true, true, true, java.lang.String/2004016611, 2004016611
+java.lang.Throwable, true, false, true, false, java.lang.Throwable/2953622131, 2953622131
+java.util.ArrayList, true, true, false, false, java.util.ArrayList/4159755760, 4159755760
